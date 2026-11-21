@@ -20,7 +20,7 @@ while True:
             print("no tasks")
         else:
              for i in range(len(tasks)):
-                 print(i+1,":",tasks[i])
+                 print(i+1,".",tasks[i])
     elif choice == "3":
         if len(tasks) == 0:
             print("no task to delete")
